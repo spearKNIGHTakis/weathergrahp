@@ -1,0 +1,14 @@
+{
+  "name": "weathergraph-push-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "generate-keys": "web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "web-push": "^3.6.7",
+    "cors": "^2.8.5"
+  }
+}
